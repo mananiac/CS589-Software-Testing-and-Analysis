@@ -1,0 +1,30 @@
+Test#1: Activate 2 3 4 PayCash 20 Cancel PayCash 10 Super StartPump StopPump NoReceipt PayCash 10 Regular Cancel TurnOff
+Test#2: Activate 3 4 6 PayCredit Approved Regular StartPump Pump Pump StopPump Receipt TurnOff
+Test#3: Activate 2 3 4 PayCash 3 Regular StartPump Pump Pump NoReceipt TurnOff
+Test#4: Activate 2 3 4 PayCash 20 Regular StartPump StopPump NoReceipt PayCredit Reject TurnOff
+Test#5: Activate 3 4 6 PayCredit Reject PayCash 26 Cancel PayCredit Reject PayCredit Approved Midgrade StartPump StopPump NoReceipt PayCredit Reject TurnOff
+Test#6: Activate 3 4 6PayCash 26 Super StartPump StopPump NoReceipt PayCash 26 Super StartPump Pump StopPump NoReceipt TurnOff
+Test#7: Activate 2 3 4 TurnOff
+Test#8: Activate 2 3 4 PayCash 20 Cancel PayCredit Approved Super Cancel PayCredit  Approved Midgrade Cancel PayCash 1 Regular StartPump Pump Receipt PayCredit Reject TurnOff
+Test#9: Activate 2 3 4 PayCredit Reject PayCredit Approved Cancel TurnOff
+Test#10: Activate 3 4 6 Activate 3 4 6 Reject Approved Cancel PayCash -26 Regular Super StartPump Pump StopPump Pump Receipt NoReceipt Midgrade StopPump Pump StartPump Cancel
+Test#11: Activate 2 3 4 PayCash 20 Midgrade StartPump Pump Pump StopPump NoReceipt TurnOff
+Test#12: Activate -2 3 4 PayCredit Reject Approved Cancel PayCash 20 Regular Super Midgrade StartPump Pump StopPump NoReceipt Receipt TurnOff
+Test#13: Activate 2 3 4 Activate 2 3 4 Reject Approved Cancel Regular Super Midgrade StartPump Pump StopPump NoReceipt Receipt
+Test#14: Activate 2 3 4 PayCredit Approved Regular StartPump Activate 2 3 4 PayCredit Reject Approved Cancel PayCash 20 Regular Super Midgrade StartPump NoReceipt Receipt TurnOff
+Test#15: Activate 2 3 4 PayCredit Activate 2 3 4 PayCredit Cancel PayCash 20 Regular Super Midgrade StartPump Pump StopPump NoReceipt Receipt TurnOff
+Test#16: Activate 2 3 4 PayCredit Approved Activate 2 3 4 PayCredit Reject Approved PayCash 20 StartPump Pump StopPump NoReceipt Receipt TurnOff
+Test#17: Activate 2 3 4 PayCredit Approved Regular Activate 2 3 4 PayCredit Reject Approved PayCash 20 Regular Super Midgrade Pump StopPump NoReceipt Receipt TurnOff
+Test#18: Activate 2 3 4 PayCash 20 Regular StartPump Activate 2 3 4 PayCredit Reject Approved Cancel PayCash 20 Regular Super Midgrade StartPump NoReceipt Receipt TurnOff
+Test#19: Activate 2 3 4 PayCash 20 Regular StartPump StopPump Activate 2 3 4 PayCredit Reject Approved Cancel PayCash 20 Regular Super Midgrade StartPump Pump StopPump TurnOff
+Test#20: Activate 2 3 4 TurnOff Activate 2 3 4 PayCredit Reject Approved Cancel PayCash 20 Regular Super Midgrade StartPump Pump StopPump NoReceipt Receipt TurnOff
+Test#21: Activate -3 -4 -5 Activate -3 -4 5 Activate -3 4 -5 Activate -3 4 5 Activate 3 -4 -5 Activate 3 -4 5 Activate 3 4 -5 Activate 3 4 5 Activate -3 -4 -5 Activate -3 -4 5 Activate -3 4 -5 Activate -3 4 5 Activate 3 -4 -5 Activate 3 -4 5 Activate 3 4 -5 Activate 3 4 5 PayCredit Reject Approved TurnOff
+Test#22: Activate 2 3 4 PayCash 5 Super StartPump Pump Pump NoReceipt TurnOff
+Test#23: Activate 4 5 6 PayCredit Cancel Regular Approved  Super  Cancel  PayCash  5  Cancel NoReceipt TurnOff
+Test#24: Activate 8 9 10 PayCredit Approved Midgrade StartPump Pump TurnOff StopPump NoReceipt TurnOff
+Test#25: Activate 4 5 6 PayCredit Approved Cancel PayCash 5 Regular Super Midgrade StartPump Pump StopPump Receipt TurnOff
+Test#26: PayCredit Reject Approved Cancel PayCash 20 PayCash -20 Regular Super Midgrade StartPump Pump StopPump NoReceipt Receipt TurnOff
+Test#27: Activate 1 2 3 PayCash 9 Midgrade StartPump Pump Pump Pump Pump Receipt TurnOff
+Test#28: Activate 1 2 3 PayCash 9 Midgrade StartPump Pump Pump Pump StopPump Receipt TurnOff
+Test#29: Activate 3 5 6 PayCash 5 Regular StartPump StopPump NoReceipt TurnOff
+$$
